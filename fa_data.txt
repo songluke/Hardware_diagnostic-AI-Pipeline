@@ -1,0 +1,19 @@
+Case ID: FA-001
+Issue: Thermal Throttling / Overheating
+Root Cause: Fan bearing failure leading to reduced airflow.
+Resolution: Replaced mechanical fan with high-reliability magnetic levitation model.
+
+Case ID: FA-002
+Issue: Voltage Instability
+Root Cause: Capacitor degradation on power delivery rail.
+Resolution: Updated BOM to use high-temp solid capacitors.
+
+Case ID: FA-003
+Issue: Input/Output Recognition Failure
+Root Cause: Firmware timeout during handshake protocol.
+Resolution: Increased SATA link initialization timer in firmware version 2.1.
+
+Case ID: FA-004
+Issue: Sequential Write Performance Drop
+Root Cause: Natural SLC cache saturation during heavy workloads.
+Resolution: Advised user on optimal over-provisioning (OP) settings.
